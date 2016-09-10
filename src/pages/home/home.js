@@ -1,10 +1,11 @@
 'use strict';
 
 import Ractive from 'ractive';
+
+import Util    from '../../js/util';
 import Header  from '../../templates/header.html';
 import Footer  from '../../templates/footer.html';
 import Page    from './home.html';
-import Util    from '../../js/util';
 
 var headerData = {
     test : 'abc'

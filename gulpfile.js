@@ -23,6 +23,8 @@ var browserify  = require('browserify'),
 var components = [
     { name: 'shared',    ractive: false },
     { name: 'home',      ractive: true },
+    { name: 'project',   ractive: true },
+    { name: 'people',    ractive: true },
     { name: 'resources', ractive: true }
 ];
 
